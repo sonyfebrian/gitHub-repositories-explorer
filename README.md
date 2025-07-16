@@ -47,6 +47,34 @@ npm run dev # or yarn dev
 
 ---
 
+## 📦 Build the Application
+To build the app for production (optimized bundle):
+
+```bash
+npm run build # or yarn build
+```
+
+This will create an optimized production build in the `dist` directory.
+
+---
+The output will be in the dist/ folder. You can deploy it to any static hosting service such as:
+
+Vercel
+
+Netlify
+
+GitHub Pages
+
+Firebase Hosting
+
+To preview the build locally before deployment:
+
+```bash
+npm run preview # or yarn preview
+```
+
+This will start a local server to serve the production build.
+
 ## 🧪 Running Tests
 
 To run tests, use the following command:
